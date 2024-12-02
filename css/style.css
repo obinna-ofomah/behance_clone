@@ -11,7 +11,7 @@
   height: auto;
   background-color: rgb(231, 219, 241);
   width: 100%;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .organix-tasks-container {
@@ -32,8 +32,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
-  border-right: 1px solid grey;
+  border-right: 1px solid rgb(214, 214, 214);
   padding-right: 1rem;
+  background-color: rgb(240, 240, 240,.4);
+  padding-bottom: 10rem;
 }
 
 .top-container {
@@ -99,9 +101,96 @@ img {
   flex-direction: row;
   background-color: white;
   column-gap: .5rem;
-  border-radius: .2rem;
+  border-radius: .4rem;
   margin-right:1rem;
-  padding: .2rem .5rem;
+  padding: .3rem .9rem;
+  justify-content: start;
+  align-items: start;}
+
+.keyboard-container, .f-letter-container {
+  height: auto;
+  width: fit-content;
+}
+
+.keyboard-container span {
+  width:100%
+}
+
+.middle-container, .lower-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.collection-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
   justify-content: start;
   align-items: start;
+}
+
+.icon{
+  height:auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  margin-left: .5rem;
+  align-items: center;
+}
+
+.main-menu, .label {
+  font-weight: 600;
+  color: grey;
+}
+
+.portfolio-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  margin-left: 1rem;
+}
+
+.pot {
+  height: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.label {
+  padding-top:2rem;
+}
+
+.block {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.green-color {
+  background-color: rgb(51, 182, 117);
+}
+
+.violet-color {
+  background-color: rgb(87, 87, 155);
+}
+
+.orange-color {
+  background-color: rgb(223, 153, 24);
+}
+
+.purple-color {
+  background-color: purple;
 }
