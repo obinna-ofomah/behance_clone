@@ -197,7 +197,7 @@ img {
 
 .rightbar-container {
   height: auto;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -233,6 +233,7 @@ img {
   border: 3px solid #9984e5;
   padding: .5rem;
   border-radius: .5rem;
+  padding-right: 1rem;
 }
 .user-profile-notification {
   width:50px;
@@ -241,4 +242,41 @@ img {
 .user-profile-notification img {
   width: 100%;
   border-radius: 15px;
+}
+
+.bottom-right-bar {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.first-container {
+  height: auto;
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section, .new {
+  height: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: .5rem;
+}
+
+.left-section, .right-section {
+  column-gap: 2rem;
+  padding-top: 1.5rem;
+}
+
+.right-section {
+  height: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
 }
